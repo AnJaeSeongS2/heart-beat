@@ -18,3 +18,12 @@
 * 가벼운 운동(산책, 하이킹)은 심박수 120이하
 * 강한 운동(줄넘기, 달리기)은 심박수 120~160
 * 격한 운동(농구, 축구)은 심박수 160 이상이 되었을 때를 말합니다.
+
+---
+## 빌드 하는 법
+* OOM on build:
+  * Exception in thread "native-image pid watcher" java.lang.OutOfMemoryError: GC overhead limit exceeded
+  * https://github.com/spring-projects-experimental/spring-native/issues/650#issuecomment-804632209
+  * 추천대로면, Macos 에서는 8GB의 메모리를 docker에 줘야한단다....;;;
+    * https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/#_system_requirements
+    * On MacOS, it is recommended to increase the memory allocated to Docker to at least 8GB, and potentially add more CPUs as well. See this Stackoverflow answer for more details. On Microsoft Windows, make sure to enable the Docker WSL 2 backend for better performance.
