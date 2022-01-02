@@ -1,6 +1,7 @@
 # heart-beat
 
 ---
+* (원래 목적) : native image를 테스트 한다. graalvm 21.3.0 + spring-native
 * 사람의 심장박동수를 모사한 Mock
 * 나이별, 운동 상황별 적절히 심장 박동을 하게 끔 모사한다.
 * 심장 박동 시작이 있듯이, 심 정지도 있다.
